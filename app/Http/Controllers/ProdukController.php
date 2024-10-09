@@ -147,7 +147,7 @@ class ProdukController extends Controller
         ]);
 
         $this->updateTotal();
-
+        Alert::info('Info','Produk berhasil ditambahkan');
         return redirect('/home');
     }
 

@@ -86,7 +86,7 @@
                             <a href="/index/delete/{{ $item->id }}"
                                 onclick="return window.confirm('Yakin hapus data ini?')"
                                 class="btn btn-danger">Hapus</a>
-                            <a href="/index/edit/{{ $item->id }}" class="btn btn-info">Edit</a>
+                            <a href="/index/edit/{{ $item->id }}" class="btn btn-info text-white">Edit</a>
                         </td>
                     </tr>
                 @endforeach

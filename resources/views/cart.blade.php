@@ -54,7 +54,7 @@
                   <p>Kategori : {{ $item->item->kategori }}</p>
                   <p>Harga : Rp.{{ $item->item->harga }}</p>
                   <!-- Data -->
-                    <a href="/home/cart/delete/{{ $item->id }}"><button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-danger btn-sm me-1 mb-2" data-mdb-tooltip-init
+                    <a href="/home/cart/delete/{{ $item->id }}" ><button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-danger btn-sm me-1 mb-2" data-mdb-tooltip-init
                     title="Remove item">
                     Hapus
                   </button></a>

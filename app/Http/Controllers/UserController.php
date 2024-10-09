@@ -44,9 +44,6 @@ class UserController extends Controller
             'pos' => $request->pos,
             'detail' => $request->detail,
         ]);
-        // $keranjang = new keranjang();
-        // $keranjang->id_user = $user->id;
-        // $keranjang->save();
         return redirect('/');
     }
 
